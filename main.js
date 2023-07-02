@@ -1,6 +1,8 @@
 let firstName = prompt("Please enter your first name: ");
 let lastName = prompt("Please enter your last name: ");
-let age = prompt("Please enter your age: ");
+let age = parseInt(prompt("Please enter your age: "));
+
+age = age + 2;
 
 console.log(firstName)
 console.log(lastName);
