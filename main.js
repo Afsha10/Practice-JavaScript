@@ -1,11 +1,7 @@
+let firstName = prompt("Please enter your first name: ");
+let lastName = prompt("Please enter your last name: ");
+let age = prompt("Please enter your age: ");
 
-let firstName = 'Florence'
-let lastName = 'Nightingle'
-
-let age = 28
-age = 32
-
-console.log('My name is ' + firstName + ' ' + lastName)
-console.log("I'm " + age + "years old")
-
-
+console.log(firstName)
+console.log(lastName);
+console.log(age);
