@@ -1,5 +1,9 @@
-let firstName = prompt("Please enter your first name: ")
+let friends = ["Alan", "Bob", "Charlie", "David"];
 
-const greeting = "Hello "
+friends[1] = "Jane";
+friends[4] = "Bella";
+friends[5] = 37.5;
 
-document.getElementById("greeting").innerHTML = greeting + firstName;
+
+console.log(friends);
+console.log(friends[1]);
