@@ -1,7 +1,17 @@
-let age = 20;
+let grade = prompt("Please enter your grade 0-100") 
 
-if (age >= 18) {
-    console.log("You are and adult");
+if (grade > 100) {
+  alert("Your grade is not valid.");
+} else if (grade >= 90) {
+  alert("Your grade is A.");
+} else if (grade >= 80) {
+  alert("Your grade is B.");
+} else if (grade >= 70) {
+  alert("Your grade is C.");
+} else if (grade >= 60) {
+  alert("Your grade is D.");
+} else if (grade >= 0) {
+  alert("Your grade is F.");
 } else {
-    console.log("You are not yet an adult");
+  alert("Your grade is not valid.");
 }
