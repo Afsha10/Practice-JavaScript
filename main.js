@@ -1,12 +1,7 @@
-let friends = ["Alan", "Bob", "Charlie", "David"];
-console.log(friends);
+let age = 20;
 
-
-friends[1] = "Jane";
-friends[4] = "Bella";
-friends[5] = 37.5;
-
-
-console.log(friends);
-
-console.log(friends[1]);
+if (age >= 18) {
+    console.log("You are and adult");
+} else {
+    console.log("You are not yet an adult");
+}
